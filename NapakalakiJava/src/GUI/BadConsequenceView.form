@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="99" green="99" red="ff" type="rgb"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lostLevels" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="textBadConsequence" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabelTextBadConsequence" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelLostLevels" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="BadConsequenceTitle" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelnVisibles" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelnOcultos" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelspVisibles" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelspOcultos" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelmuerte" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+              <Component id="BadConsequenceTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="textBadConsequence" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelTextBadConsequence" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lostLevels" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelLostLevels" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabelmuerte" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabelnVisibles" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabelnOcultos" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabelspVisibles" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabelspOcultos" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="BadConsequenceTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Bad Consequence"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="textBadConsequence">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mal Rollo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lostLevels">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Niveles Perdidos:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelLostLevels">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelTextBadConsequence">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelmuerte">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelnVisibles">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelnOcultos">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelspVisibles">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelspOcultos">
+    </Component>
+  </SubComponents>
+</Form>
